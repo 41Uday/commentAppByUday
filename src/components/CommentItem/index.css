@@ -1,0 +1,88 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+/* Write your CSS here */
+
+.res-par-1 {
+  border-radius: 50px;
+  color: white;
+  font-size: 15px;
+  font-family: 'Roboto';
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hr-2 {
+  width: 90%;
+}
+.item-card-1 {
+  display: flex;
+  align-items: center;
+}
+.name-1 {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 700;
+  margin-left: 20px;
+}
+.time-1 {
+  margin-left: 30px;
+}
+.item-l-card {
+  display: flex;
+  justify-content: space-between;
+}
+.item-img-1 {
+  width: 20px;
+}
+.item-butt-1 {
+  background-color: transparent;
+  color: #7e858e;
+  font-size: 16px;
+  border-width: 0;
+  margin-left: 10px;
+  font-weight: 700;
+}
+.item-butt-2 {
+  background-color: transparent;
+  border-width: 0;
+  margin-right: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .o-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .item-card-1 {
+    justify-content: flex-start;
+  }
+}
